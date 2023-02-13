@@ -1,24 +1,22 @@
 # ABBYY Compreno Semantic Hierarchy (simplified)
 
-<a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://img.shields.io/static/v1?label=license&message=CC-BY-NC-4.0&color=green"/></a>
 
-Here we present the materials for the semantic analysis of texts in natural languages based on the ABBYY Compreno linguistic technologies. 
+The semantic hierarchy is organized in the form of the tree, which consists of the semantic classes (SCs) printed in capitals - the SCs are universal for all languages included in the hierarchy and denote semantic senses common for all languages.  
+Each SC contains lexical classes (LCs) - lexicon of different languages. LCs are written in small letters, for instance:
 
-ABBYY decided to publish this technology for the needs of the scientific society in the area of corpus linguistics under terms of the CC-BY-NC 4.0 License. 
+![image](https://user-images.githubusercontent.com/125276344/218484497-c746f6d8-2662-48f3-9b48-e1ae5de63780.png)
 
-The ABBYY Compreno model consists of morphological, syntactic and semantic patterns and includes the syntactic and semantic parser built on them.
-The core of the model is the ABBYY Compreno Semantic Hierarchy - the thesaurus-like semantic tree, which consists of the semantic classes (SCs). SCs correspond to semantic fields universal for all languages included in the hierarchy and denote semantic senses common for all languages. The SCs are filled with lexical contents (lexical classes, or LCs) special for each language of the hierarchy:
+One SC can include LCs with different semantics - antonyms, for instance (as ‘быстрый - quick’ vs ‘медленный - slow’ above). In this case, their meanings are differentiated through semantic attributes - semantemes, attached to the necessary classes in the SH.
 
-![image](https://user-images.githubusercontent.com/125276344/218479636-86f30236-7417-4aca-b583-5dbffec817c1.png)
+LCs, in turn, can contain semantic derivates (SD), which are usually formed from the lexical class and differ from it through some meaning components, like ‘плыть - swim’ -> ‘уплыть - swim away, приплыть - swim up’, and so on. The SDs are written in italic. 
 
-The ABBYY Compreno Semantic Hierarchy is a part of the ABBYY Compreno markup format. The semantic part of the markup includes the boundaries of the constituents, the SC for every token and the semantic relations between all the constituents (semantic roles, or, deep slots). Additionally, the markup can also be provided with surface, or syntactic, roles, coreference, non-tree links, and some other information.
+The SCs can also include terms - set phrases with some definite sense, located in the hierarchy according to the general meaning of the whole collocation. The terms are written with small letters in square brackets:
 
-In the current repository, we suggest the following data:
+![image](https://user-images.githubusercontent.com/125276344/218484770-e102cf13-0a0c-432e-8930-582bada341eb.png)
 
-- First, we open the shortened version of the hierarchy, where one can see only the hyperonym SCs:
+In the hierarchy, we can see both the closest SC-parent of the lexical class and its closest hyperonym class, which is shown as its parent in the generalized semantic markup. The hyperonym SCs are printed with bold letters in the tree.
 
-![image](https://user-images.githubusercontent.com/125276344/218480057-80eacc8a-3002-473d-9e06-b17c7544b34e.png)
+Here, we have presented a shortened version of the hierarchy: one can see only the hyperonym SCs, which are shown in the generalized version of the semantic markup:
 
-The hierarchy is presented in the form a .csv table which contains the information needed to visually re-create the Semantic Hierarchy as a tree for exploration.
+![image](https://user-images.githubusercontent.com/125276344/218485141-e890da6a-1890-4d98-8531-b41eb754fef0.png)
 
-- Second, we suggest a 400 000 token [dataset](https://github.com/compreno-semantics/compreno-corpus) provided with the generalized version of the semantic markup, which includes the boundaries of the constituents, the generalized SCs and the generalized semantic roles between the constituents. The markup is converted into the UD format as the one that is well-known to most of the users. The UD markup contains morphological and syntactic information, but is not provided with the semantic level. Therefore, we have converted the morphological and syntactic representations of the ABBYY Compreno model into the UD format and enriched it with the semantical data.
