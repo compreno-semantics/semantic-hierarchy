@@ -10,7 +10,7 @@ One SC can include LCs with different semantics - antonyms, for instance (as ‘
 
 LCs, in turn, can contain semantic derivates (SDs), which are usually formed from the lexical class and differ from it through some meaning components, like ‘плыть - swim’ -> ‘уплыть - swim away, приплыть - swim up’, and so on. 
 
-The SCs can also include terms - set phrases with some definite sense, located in the hierarchy according to the general meaning of the whole collocation. The terms are written with small letters in square brackets:
+The SCs can also include terms - set phrases with some definite sense, located in the hierarchy according to the general meaning of the whole collocation:
 
 ![image](https://user-images.githubusercontent.com/125276344/218484770-e102cf13-0a0c-432e-8930-582bada341eb.png)
 
