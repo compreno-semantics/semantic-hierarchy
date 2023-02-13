@@ -7,7 +7,9 @@ Here we present the materials for the semantic analysis of texts in natural lang
 ABBYY decided to publish this technology for the needs of the scientific society in the area of corpus linguistics under terms of the CC-BY-NC 4.0 License. 
 
 The ABBYY Compreno model consists of morphological, syntactic and semantic patterns and includes the syntactic and semantic parser built on them.
-The core of the model is the ABBYY Compreno Semantic Hierarchy - the thesaurus-like semantic tree, which consists of the semantic classes (SCs). SCs correspond to semantic fields universal for all languages included in the hierarchy and denote semantic senses common for all languages. The SCs are filled with lexical contents (lexical classes, or LCs) special for each language of the hierarchy.
+The core of the model is the ABBYY Compreno Semantic Hierarchy - the thesaurus-like semantic tree, which consists of the semantic classes (SCs). SCs correspond to semantic fields universal for all languages included in the hierarchy and denote semantic senses common for all languages. The SCs are filled with lexical contents (lexical classes, or LCs) special for each language of the hierarchy:
+
+![image](https://user-images.githubusercontent.com/125276344/218479636-86f30236-7417-4aca-b583-5dbffec817c1.png)
 
 The ABBYY Compreno Semantic Hierarchy is a part of the ABBYY Compreno markup format. The semantic part of the markup includes the boundaries of the constituents, the SC for every token and the semantic relations between all the constituents (semantic roles, or, deep slots). Additionally, the markup can also be provided with surface, or syntactic, roles, coreference, non-tree links, and some other information.
 
