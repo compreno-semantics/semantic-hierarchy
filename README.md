@@ -8,7 +8,7 @@ Each SC contains lexical classes (LCs) - lexicon of different languages. LCs are
 
 One SC can include LCs with different semantics - antonyms, for instance (as ‘быстрый - quick’ vs ‘медленный - slow’ above). In this case, their meanings are differentiated through semantic attributes - semantemes, attached to the necessary classes in the SH.
 
-LCs, in turn, can contain semantic derivates (SD), which are usually formed from the lexical class and differ from it through some meaning components, like ‘плыть - swim’ -> ‘уплыть - swim away, приплыть - swim up’, and so on. The SDs are written in italic. 
+LCs, in turn, can contain semantic derivates (SDs), which are usually formed from the lexical class and differ from it through some meaning components, like ‘плыть - swim’ -> ‘уплыть - swim away, приплыть - swim up’, and so on. The SDs are written in italic. 
 
 The SCs can also include terms - set phrases with some definite sense, located in the hierarchy according to the general meaning of the whole collocation. The terms are written with small letters in square brackets:
 
