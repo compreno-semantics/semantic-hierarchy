@@ -1,7 +1,7 @@
 # ABBYY Compreno Semantic Hierarchy (simplified)
 
 
-The semantic hierarchy is organized in the form of the tree, which consists of the semantic classes (SCs) printed in capitals - the SCs are universal for all languages included in the hierarchy and denote semantic senses common for all languages.  
+The semantic hierarchy is organized in the form of the tree, which consists of the semantic classes (SCs) printed in capitals. The SCs are universal for all languages included in the hierarchy and denote semantic senses common for all languages.  
 Each SC contains lexical classes (LCs) - lexicon of different languages. LCs are written in small letters, for instance:
 
 ![image](https://user-images.githubusercontent.com/125276344/218484497-c746f6d8-2662-48f3-9b48-e1ae5de63780.png)
