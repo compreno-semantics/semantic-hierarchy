@@ -4,7 +4,7 @@
 
 The ABBYY Compreno Semantic Hierarchy is a part of the ABBYY Compreno markup format. It is organized in the form of the tree, which consists of the semantic classes (SCs): the SCs are universal for all languages included in the hierarchy and denote semantic senses common for all languages; and lexical classes (LC): lexicon of different languages. 
 
-Our company decided to publish this technology for the needs of the scientific society in the area of corpus linguistics under terms of the CC-BY-NC 4.0 License. 
+ABBYY decided to publish this technology for the needs of the scientific society in the area of corpus linguistics under terms of the CC-BY-NC 4.0 License. 
 
 Here we present the materials for the semantic analysis of texts in natural languages based on the ABBYY Compreno linguistic technologies. The ABBYY Compreno model consists of morphological, syntactic and semantic patterns and includes the syntactic and semantic parser built on them.
 
