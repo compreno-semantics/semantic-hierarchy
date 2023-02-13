@@ -16,7 +16,7 @@ The ABBYY Compreno Semantic Hierarchy is a part of the ABBYY Compreno markup for
 In the current repository, we suggest the following data:
 
 - First, we open the shortened version of the hierarchy, where one can see only the hyperonym SCs:
-- 
+
 -  ![image](https://user-images.githubusercontent.com/125276344/218480057-80eacc8a-3002-473d-9e06-b17c7544b34e.png)
 
 The hierarchy is presented in the form a .csv table which contains the information needed to visually re-create the Semantic Hierarchy as a tree for exploration.
